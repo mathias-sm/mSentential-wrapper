@@ -87,5 +87,4 @@ Step System    Description                                                      
 24   System 2   Model of conjunction of premises:                                          3
 25   System 2  The premises yield the models: (((A) (- B)))                                3
 26   System 2  Number of fully explicit models constructed equals 4.                       3
-NIL,1.0,0.0
 ```
