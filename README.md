@@ -1,21 +1,28 @@
 # Wrapper around `mSentential` for non-lispers
 
-This is intended to be a collection of useful tools to quickly inspect
-`mSentential` for people who are not versed in the beauty of `lisp`. More
-information about the theory `mSentential` implements in:
-
-> Khemlani, S. S., Byrne, R. M., & Johnson‐Laird, P. N. (2018). Facts and
-> Possibilities: A Model‐Based Theory of Sentential Reasoning. Cognitive
-> science, 42(6), 1887-1924.
-
 Authors of this project:
 
 * [Mathias Sablé-Meyer](https://s-m.ac)
 * [Salvador Mascarenhas](http://web-risc.ens.fr/~smascarenhas/)
 
+This is a collection of useful tools to quickly inspect `mSentential` as
+a black box for people who are not versed in the beauty of `lisp`. The theory
+`mSentential` implements is described in:
+
+> Khemlani, S. S., Byrne, R. M., & Johnson‐Laird, P. N. (2018). Facts and
+> Possibilities: A Model‐Based Theory of Sentential Reasoning. Cognitive
+> science, 42(6), 1887-1924.
+
+For these tools to work, a copy of the original `mSentential` program is
+downloaded from [www.modeltheory.org](https://www.modeltheory.org/models/) and
+used as a black box. For more information about it, see the header of the
+program which contains contact information. The original `mSentential` program
+is distributed under [Creative Commons Attribution-NonCommercial- ; ShareAlike
+4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 ## Requirements
 
-For these tools to work, you need:
+These tools require the following program to be available:
 
 * `ecl` or any other lisp interpretor that can load several files before
   running a script from another file
